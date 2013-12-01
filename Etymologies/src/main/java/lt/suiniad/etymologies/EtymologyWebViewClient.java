@@ -55,7 +55,7 @@ public class EtymologyWebViewClient extends WebViewClient {
      * @return either null of prepared WebResourceResponce object
      */
     public WebResourceResponse shouldInterceptRequest (WebView view, String url){
-        // if not a html then this
+        // if not a html resource was requested then return null
         if (!url.contains("index.php?")) {
             return null;
         }
@@ -67,7 +67,7 @@ public class EtymologyWebViewClient extends WebViewClient {
         // convert String into InputStream
         InputStream is = new ByteArrayInputStream(modifiedHtml.getBytes());
 
-        // create WebResourceResponce object
+        // create WebResourceResponse object
         return new WebResourceResponse("text/html", "UTF-8", is);
     }
 
@@ -125,7 +125,7 @@ public class EtymologyWebViewClient extends WebViewClient {
         return head.concat(search).concat(definitions).concat(footer);
     }
 
-    /**
+    /**MyApplication
      * Get html from the provided url.
      * @param url web url
      * @return string that is html source code
