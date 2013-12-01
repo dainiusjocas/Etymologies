@@ -1,43 +1,88 @@
 package lt.suiniad.etymologies;
 
 import android.app.Activity;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.webkit.WebSettings;
+import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.FrameLayout;
 
 public class MainPage extends Activity {
     /*
     My web view
      */
     private WebView mWebView;
+    private FrameLayout webViewPlaceholder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // now we can handle the webview
-        mWebView = (WebView) findViewById(R.id.activity_main_webview);
-
-        // Enable Javascript
-        WebSettings webSettings = mWebView.getSettings();
-        webSettings.setJavaScriptEnabled(true);
-
-//        good example that you can load content from a string
-//        but before you need a string
-//        String summary = "<html><body>You scored <b>192</b> points.</body></html>";
-//        webview.loadData(summary, "text/html", null);
-
-        mWebView.loadUrl("file:///android_asset/www/index.html");
-//        mWebView.loadUrl("http://www.etymonline.com/");
-
-        // Force links and redirects to open in the WebView instead of in a browser
-        mWebView.setWebViewClient(new EtymologyWebViewClient());
-
+        initUI();
     }
 
+    protected void initUI() {
+        // Retrieve UI elements
+        webViewPlaceholder = ((FrameLayout)findViewById(R.id.webViewPlaceholder));
+
+        // Initialize the WebView if necessary
+        if (mWebView == null)
+        {
+            // Create the webview
+            mWebView = new WebView(this);
+            mWebView.setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
+
+            mWebView.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY);
+            mWebView.setScrollbarFadingEnabled(true);
+            mWebView.getSettings().setLoadsImagesAutomatically(true);
+            mWebView.getSettings().setJavaScriptEnabled(true);
+
+            // Load the URLs inside the WebView, not in the external web browser
+            mWebView.setWebViewClient(new EtymologyWebViewClient());
+
+            // Load a page
+            mWebView.loadUrl("file:///android_asset/www/index.html");
+        }
+
+        // Attach the WebView to its placeholder
+        webViewPlaceholder.addView(mWebView);
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig)
+    {
+        if (mWebView != null)
+        {
+            // Remove the WebView from the old placeholder
+            webViewPlaceholder.removeView(mWebView);
+        }
+
+        super.onConfigurationChanged(newConfig);
+
+        // Load the layout resource for the new configuration
+        setContentView(R.layout.activity_main);
+
+        // Reinitialize the UI
+        initUI();
+    }
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+
+        // Save the state of the WebView
+//        mWebView.saveState(outState);
+    }
+
+    @Override
+    protected void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+
+        // Restore the state of the WebView
+        mWebView.restoreState(savedInstanceState);
+    }
 
     @Override
     // Detect when the back button is pressed

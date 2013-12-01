@@ -38,7 +38,6 @@ public class Storage implements IStorage {
         String data = etymologyController.getEtymology(key);
         etymologyController.close();
         return data;
-//        return null;
     }
 
     /**

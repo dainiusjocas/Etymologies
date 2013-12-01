@@ -104,7 +104,11 @@ public class EtymologyWebViewClient extends WebViewClient {
                         "   padding: 0 0.5em 0;\n" +
                         "}\n" +
                         "#dictionary dd { padding-bottom: 0.5em; }\n" +
-                        "#dictionary .highlight { background-color: #ddd9ca; }" +
+                        "#dictionary .highlight { background-color: #ddd9ca; }\n" +
+                        "ul li {\n" +
+                        "display: inline ;\n" +
+                        "padding: 0px 3px 0px 3px ;\n" +
+                        "}\n" +
                         "</style>" +
                 "</head>" +
                 "<body><br/>";

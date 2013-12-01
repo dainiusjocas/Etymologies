@@ -70,8 +70,8 @@ public class EtymologyController {
         if (url.contains("?term=")) {
             return url;
         } else {
-            String head = "http://www.etymonline.com/index.php?allowed_in_frame=0&search=";
-            String tail = "&searchmode=none";
+            String head = "http://www.etymonline.com/index.php?term=";
+            String tail = "allowed_in_frame=0";
             String term = extractTerm(url);
             return head.concat(term).concat(tail);
         }
@@ -89,7 +89,7 @@ public class EtymologyController {
             return url;
         } else {
             String head = "http://www.etymonline.com/index.php?allowed_in_frame=0&search=";
-            String tail = "&searchmode=none";
+            String tail = "";
             String term = extractTerm(url);
             return head.concat(term).concat(tail);
         }
@@ -142,6 +142,6 @@ public class EtymologyController {
         return null;
     }
 
-    // http://www.etymonline.com/index.php?allowed_in_frame=0&search=google&searchmode=none
+    // http://www.etymonline.com/index.php?allowed_in_frame=0&search=google
     // http://www.etymonline.com/index.php?term=google&allowed_in_frame=0
 }

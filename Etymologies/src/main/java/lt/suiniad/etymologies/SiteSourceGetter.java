@@ -55,10 +55,8 @@ public class SiteSourceGetter {
 
                 is.close(); // Close the stream
 
-                List<String> data = new ArrayList<String>();
-                data.add(url);
-                data.add(resString);
-                storage.storeData(data);
+                // store url and html in the database
+                storeUrlAndHtml(url, resString);
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -67,6 +65,18 @@ public class SiteSourceGetter {
         }
 
         return resString;
+    }
+
+    /**
+     * Saves arguments in the database
+     * @param url url
+     * @param html html
+     */
+    private void storeUrlAndHtml(String url, String html) {
+        List<String> data = new ArrayList<String>();
+        data.add(url);
+        data.add(html);
+        storage.storeData(data);
     }
 
     /*
