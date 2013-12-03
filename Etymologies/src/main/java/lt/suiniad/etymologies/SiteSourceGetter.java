@@ -13,8 +13,8 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-import storage.IStorage;
-import storage.Storage;
+import lt.suiniad.etymologies.storage.IStorage;
+import lt.suiniad.etymologies.storage.Storage;
 
 /**
  * This class gets the html behind a url.
@@ -32,7 +32,7 @@ public class SiteSourceGetter {
      */
     public String getWebsiteSource(String url) {
         String resString = "";
-        // get url from storage
+        // get url from lt.suiniad.etymologies.storage
         String html = storage.getDataByKey(url);
         // check if we already have this url in the db, null means not
         if (null == html) {

@@ -1,16 +1,16 @@
-package storage;
+package lt.suiniad.etymologies.storage;
 
 import java.util.List;
 
 /**
- * Defines what storage should provide for the app.
+ * Defines what lt.suiniad.etymologies.storage should provide for the app.
  * Created by mo on 12/1/13.
  */
 public interface IStorage {
 
     /**
      * Given a list of strings stores them in some form of persistent
-     * storage.
+     * lt.suiniad.etymologies.storage.
      *
      * @param data - everything that needs to be stored.
      */

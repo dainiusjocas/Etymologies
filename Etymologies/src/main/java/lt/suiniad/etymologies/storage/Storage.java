@@ -1,12 +1,12 @@
-package storage;
+package lt.suiniad.etymologies.storage;
 
 import java.util.List;
 
 import lt.suiniad.etymologies.EtymologiesApp;
-import storage.database.EtymologyController;
+import lt.suiniad.etymologies.storage.database.EtymologyController;
 
 /**
- * Implementation of storage interface.
+ * Implementation of lt.suiniad.etymologies.storage interface.
  * Created by mo on 12/1/13.
  */
 public class Storage implements IStorage {
@@ -15,7 +15,7 @@ public class Storage implements IStorage {
             new EtymologyController(EtymologiesApp.getAppContext());
     /**
      * Given a list of strings stores them in some form of persistent
-     * storage.
+     * lt.suiniad.etymologies.storage.
      *
      * @param data - everything that needs to be stored.
      */

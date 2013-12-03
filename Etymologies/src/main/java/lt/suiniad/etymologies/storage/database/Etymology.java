@@ -1,4 +1,4 @@
-package storage.database;
+package lt.suiniad.etymologies.storage.database;
 
 /**
  * Class that can store a row of the table.

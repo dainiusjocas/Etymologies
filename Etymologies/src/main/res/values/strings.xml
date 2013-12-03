@@ -4,5 +4,10 @@
     <string name="app_name">Etymologies</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Explain to me:</string>
+    <string name="home_page">Home Page</string>
+    <string name="about">About</string>
+    <string name="history_page">Search history</string>
 
 </resources>

@@ -2,8 +2,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainPage" >
 
+    <item android:id="@+id/search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_search"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/menu_item_share"
+        android:showAsAction="ifRoom"
+        android:title="Share"
+        android:enabled="true"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
     <item android:id="@+id/action_settings"
         android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/go_home"
+        android:title="@string/home_page"
+        android:orderInCategory="98"
+        android:showAsAction="never" />
+    <item android:id="@+id/history"
+        android:title="@string/history_page"
+        android:orderInCategory="99"
+        android:showAsAction="never" />
+    <item android:id="@+id/about"
+        android:title="@string/about"
         android:orderInCategory="100"
         android:showAsAction="never" />
 </menu>

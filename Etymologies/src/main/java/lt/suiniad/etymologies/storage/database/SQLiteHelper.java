@@ -1,4 +1,4 @@
-package storage.database;
+package lt.suiniad.etymologies.storage.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

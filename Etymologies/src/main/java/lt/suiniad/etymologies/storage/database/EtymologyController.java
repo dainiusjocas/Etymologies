@@ -1,4 +1,4 @@
-package storage.database;
+package lt.suiniad.etymologies.storage.database;
 
 import android.content.ContentValues;
 import android.content.Context;
