@@ -1,3 +1,4 @@
-name: /Etymologies
+name: Etymologies
+baseurl: /Etymologies
 markdown: redcarpet
 pygments: true
