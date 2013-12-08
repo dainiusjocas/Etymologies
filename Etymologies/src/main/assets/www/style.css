@@ -30,7 +30,9 @@ a.dictionary img {
    background-color: #fff;
    border: 1px solid #000;
    margin: 1em;
+   margin-top: 0;
    padding: 1em;
+   padding-top: 0;
 }
 #navigation {
    background-color: #fffbec;
@@ -85,8 +87,6 @@ a.dictionary img {
 }
 #dictionary dd { padding-bottom: 0.5em; }
 #dictionary .highlight { background-color: #ddd9ca; }
-
-#google-adsense { margin: 1em; text-align: center; }
 
 #footer {
    border: 1px solid #000;
