@@ -2,6 +2,7 @@ package lt.suiniad.etymologies;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.util.Log;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -33,11 +34,11 @@ public class EtymologyWebViewClient extends WebViewClient {
      *
      */
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        // check if the request is for the same host
-        if(Uri.parse(url).getHost().endsWith("etymonline.com")) {
+
+        if (Uri.parse(url).getHost().endsWith("etymonline.com") &&
+                !(url.equals("http://www.etymonline.com/"))) {
             return false;
         }
-
         // if not intiate the start of the browser
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         view.getContext().startActivity(intent);
