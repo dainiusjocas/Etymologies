@@ -1,0 +1,25 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1386020362000 473 ef286317086bcc1cc7e4068df203f5970939d844 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$dimen.class
+1386107764000 2151 f17e83fbca45300232516c86471726fb930f9a32 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/storage/database/SQLiteHelper.class
+1386097506000 765 7d9f0caab87762e07d0538afa29cf97f8fef9969 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R.class
+1385824332000 352 5f8ef2d7dd2240b646a2890f9c3f067cde14c11e /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$attr.class
+1385824332000 474 3f501a6d7f4d237933fdc4d44ee9909ccf04d843 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/BuildConfig.class
+1386108846000 5756 d9f1e643f69beb01970e85581f01db60e6030fb0 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/MainPage.class
+1386107764000 296 41732c212aa5704a3bf2670c4f7825adc69decf5 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/storage/IStorage.class
+1386107764000 1163 601439945e4d2954f3c1f32e0802a45f4b018c94 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/storage/database/Etymology.class
+1386107764000 1492 b8fc1cd18bb3724cf5dd6d1646ec1bcb115857d4 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/storage/Storage.class
+1386107764000 3660 4cf8258b9a79bc3e45f9e5c8ac53f89b454fb917 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/storage/database/EtymologyController.class
+1386097506000 653 c9e924ea6a02db30ace5b12583661e0313601d37 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$string.class
+1386107764000 1664 ea5c2736e1e6d3b02cd50be76e2789765ac0fca2 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/ResponsePreparator.class
+1386097506000 407 54d716d80bc86e8bc813198ab460f63525afbe8e /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$style.class
+1386107764000 3105 ed7529ada8310c91422a574146b7a88bbdc00f63 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/SiteSourceGetter.class
+1386097505000 640 b355610041bfe34628dd64b8d6def4fbf09fe9f5 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$id.class
+1385924564000 1066 3394a8d965bd0dd9a8e240ce6a17cf3a71c8026c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/DefinitionExtractor.class
+1386097505000 452 dd95952265b173c75a5ea088b4ad285dd9c7eb2b /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$layout.class
+1386532224000 2640 750ebbf13988c25ef827aa1a834406430068dd5c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/EtymologyWebViewClient.class
+1386019484000 521 73f0bdc0b7de41703ca10005998a9037476f8fc0 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$drawable.class
+1386097506000 405 a297de6302653620ec7da19d8487f6204ea344a7 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$menu.class
+1385924564000 595 2938d79c1a6fcf64155bb29bd859f81660ac8869 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/EtymologiesApp.class
+1386097506000 403 ee747ecc879686d83422a15f416da977bca29655 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/classes/debug/lt/suiniad/etymologies/R$xml.class

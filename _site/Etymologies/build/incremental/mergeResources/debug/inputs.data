@@ -1,0 +1,18 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1385755116000 197 94d79b67121b908e8a684741c9db1f9e78ad0808 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/styles.xml
+1385853587000 2926 7f7baad708aae0b0fc47072802c413e2ad3a459f /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xhdpi/bordo.png
+1385932050000 642 c2375c2ace5bcef6bc29d68f12a85592072c97cb /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/layout/activity_main.xml
+1385755116000 665 2a5f7ee1cb8ec81dc6e88de0c3e8f96c99f23e9c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/layout/fragment_main.xml
+1385755115000 24654 696bbbc63d2250ef7d3373f2d602e604acd13d8c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xxhdpi/ic_launcher.png
+1386106504000 468 631d21621442296a23e66a7368e4fecab7276c7e /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/strings.xml
+1385755116000 358 4e7023247eba857b18a09f72c680169b11aff002 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values-w820dp/dimens.xml
+1386096884000 1262 a87dbdf87da5b40e48e498ab6669ec392d70c08c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/menu/main_page.xml
+1385755116000 216 b035e705c595264d28adb3b3f1bc5a4c0c73cf76 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/dimens.xml
+1383020112000 1480 cd791ec9269f8c7bc0ab2edb3bab3ae7c32a9cb7 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_action_search.png
+1383020112000 2280 2198a75242179df4d771d4d78995975fb456112c /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_search.png
+1385755115000 3769 eec07752d40e268ed7f4a1730acc77ab1e40aeb0 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-mdpi/ic_launcher.png
+1385755115000 12329 a8301606e15d4b6dccdd775cc273cfc51a552645 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xhdpi/ic_launcher.png
+1385755115000 7721 39b0f5a0570da92f471225402ad0ea6de30bf2be /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_launcher.png
+1386019685000 190 ef82f519666d9c08f2a993f33021c014de2a5517 /home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/xml/searchable.xml

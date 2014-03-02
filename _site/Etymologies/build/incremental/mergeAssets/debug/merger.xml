@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets" >
+            <file
+                name="www/index.html"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets/www/index.html" />
+            <file
+                name="www/style.css"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets/www/style.css" />
+            <file
+                name="www/about.html"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets/www/about.html" />
+            <file
+                name="www/ic_search.png"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets/www/ic_search.png" />
+            <file
+                name="www/horse.webp"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/assets/www/horse.webp" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/debug/assets" />
+    </dataSet>
+
+</merger>

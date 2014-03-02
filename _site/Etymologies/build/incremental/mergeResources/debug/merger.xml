@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res" >
+            <file
+                name="main_page"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/menu/main_page.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ic_launcher"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_action_search"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_action_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_main"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/layout/fragment_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="ic_launcher"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- Customize your theme here. -->
+                </style>
+            </file>
+            <file
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="search_title" >Search
+                </string>
+                <string name="history_page" >Search history
+                </string>
+                <string name="app_name" >Etymologies
+                </string>
+                <string name="search_hint" >Explain to me:
+                </string>
+                <string name="home_page" >Home Page
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="about" >About
+                </string>
+            </file>
+            <file
+                name="ic_launcher"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/values-w820dp/dimens.xml"
+                qualifiers="w820dp" >
+                <dimen name="activity_horizontal_margin" >64dp
+                </dimen>
+            </file>
+            <file
+                name="bordo"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-xhdpi/bordo.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_search"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/drawable-hdpi/ic_search.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="searchable"
+                path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/main/res/xml/searchable.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/mo/AndroidStudioProjects/EtymologiesProject/Etymologies/src/debug/res" />
+    </dataSet>
+
+</merger>
